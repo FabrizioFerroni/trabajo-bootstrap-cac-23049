@@ -197,7 +197,16 @@ textarea {
     align-items: center;
 }
 
-.footer__info li a:hover {
+.footer__info--bg {
+    background: linear-gradient(to right, #1C3643, #1E5372);
+}
+
+.footer__info--enlace {
+    display: block;
+    width: min-content;
+}
+
+.footer__info--enlace:hover {
     color: #5de5a5 !important;
 }
 
